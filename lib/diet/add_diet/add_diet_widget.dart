@@ -90,7 +90,7 @@ class _AddDietWidgetState extends State<AddDietWidget> {
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
                       'assets/images/Design_sem_nome.png',
-                      width: 406.0,
+                      width: 1460.0,
                       height: 866.0,
                       fit: BoxFit.cover,
                     ),
@@ -98,7 +98,7 @@ class _AddDietWidgetState extends State<AddDietWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.01, -1.02),
                     child: Container(
-                      width: 450.0,
+                      width: 1368.0,
                       height: 100.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -147,7 +147,7 @@ class _AddDietWidgetState extends State<AddDietWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.84, -0.71),
+                    alignment: AlignmentDirectional(-0.18, -0.66),
                     child: Text(
                       'Qual sua dieta?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -158,7 +158,7 @@ class _AddDietWidgetState extends State<AddDietWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.56, 0.88),
+                    alignment: AlignmentDirectional(0.23, 0.86),
                     child: FFButtonWidget(
                       onPressed: () async {
                         context.pushNamed('Dieta');
@@ -187,7 +187,7 @@ class _AddDietWidgetState extends State<AddDietWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.65, 0.88),
+                    alignment: AlignmentDirectional(-0.24, 0.85),
                     child: FFButtonWidget(
                       onPressed: () async {
                         if (_model.formKey.currentState == null ||
@@ -228,7 +228,7 @@ class _AddDietWidgetState extends State<AddDietWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.83, -0.47),
+                    alignment: AlignmentDirectional(-0.12, -0.39),
                     child: Text(
                       'Conte mais sobre a sua dieta',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -248,7 +248,7 @@ class _AddDietWidgetState extends State<AddDietWidget> {
                           child: Stack(
                             children: [
                               Align(
-                                alignment: AlignmentDirectional(-0.8, -0.63),
+                                alignment: AlignmentDirectional(-0.04, -0.56),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8.0, 0.0, 8.0, 0.0),
@@ -331,7 +331,7 @@ class _AddDietWidgetState extends State<AddDietWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: AlignmentDirectional(-0.8, 0.3),
+                                alignment: AlignmentDirectional(-0.1, 0.38),
                                 child: Container(
                                   width: 204.0,
                                   height: 30.0,
@@ -416,7 +416,7 @@ class _AddDietWidgetState extends State<AddDietWidget> {
                           ),
                         ),
                         Align(
-                          alignment: AlignmentDirectional(-0.65, -0.19),
+                          alignment: AlignmentDirectional(0.0, -0.02),
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 0.0, 8.0, 0.0),

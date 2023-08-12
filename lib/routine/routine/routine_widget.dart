@@ -85,7 +85,7 @@ class _RoutineWidgetState extends State<RoutineWidget> {
                       borderRadius: BorderRadius.circular(8.0),
                       child: Image.asset(
                         'assets/images/Design_sem_nome.png',
-                        width: 406.0,
+                        width: 1557.0,
                         height: 866.0,
                         fit: BoxFit.cover,
                       ),
@@ -94,7 +94,7 @@ class _RoutineWidgetState extends State<RoutineWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.01, -1.02),
                     child: Container(
-                      width: 450.0,
+                      width: 1288.0,
                       height: 100.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -295,7 +295,7 @@ class _RoutineWidgetState extends State<RoutineWidget> {
                     child: Stack(
                       children: [
                         Align(
-                          alignment: AlignmentDirectional(0.94, -0.85),
+                          alignment: AlignmentDirectional(0.23, -1.01),
                           child: FFButtonWidget(
                             onPressed: () async {
                               context.pushNamed(
@@ -333,7 +333,7 @@ class _RoutineWidgetState extends State<RoutineWidget> {
                           ),
                         ),
                         Align(
-                          alignment: AlignmentDirectional(-0.92, -0.85),
+                          alignment: AlignmentDirectional(-0.32, -0.97),
                           child: FFButtonWidget(
                             onPressed: () async {
                               context.pushNamed('AddRoutine');
@@ -368,7 +368,7 @@ class _RoutineWidgetState extends State<RoutineWidget> {
                   Align(
                     alignment: AlignmentDirectional(-0.17, 1.0),
                     child: Container(
-                      width: 411.0,
+                      width: 1358.0,
                       height: 73.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -376,7 +376,7 @@ class _RoutineWidgetState extends State<RoutineWidget> {
                       child: Stack(
                         children: [
                           Align(
-                            alignment: AlignmentDirectional(-1.0, -0.97),
+                            alignment: AlignmentDirectional(-0.99, -1.15),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   15.0, 0.0, 0.0, 0.0),
@@ -436,7 +436,7 @@ class _RoutineWidgetState extends State<RoutineWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.86, -4.11),
+                            alignment: AlignmentDirectional(0.81, -4.5),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -473,7 +473,7 @@ class _RoutineWidgetState extends State<RoutineWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(-0.36, -0.97),
+                            alignment: AlignmentDirectional(-0.41, -1.33),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -509,7 +509,7 @@ class _RoutineWidgetState extends State<RoutineWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.22, -1.89),
+                            alignment: AlignmentDirectional(0.17, -3.27),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,

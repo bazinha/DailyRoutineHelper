@@ -44,22 +44,25 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
       onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Colors.white,
+        backgroundColor: FlutterFlowTheme.of(context).info,
         body: SafeArea(
           top: true,
           child: Stack(
             children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(8.0),
-                child: Image.asset(
-                  'assets/images/Design_sem_nome.png',
-                  width: 406.0,
-                  height: 866.0,
-                  fit: BoxFit.cover,
+              Align(
+                alignment: AlignmentDirectional(0.0, 0.0),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(8.0),
+                  child: Image.asset(
+                    'assets/images/Design_sem_nome.png',
+                    width: 1527.0,
+                    height: 866.0,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.44, -1.09),
+                alignment: AlignmentDirectional(-0.05, -0.94),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(8.0),
                   child: Image.asset(
@@ -82,7 +85,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(0.14, 0.31),
+                alignment: AlignmentDirectional(-0.11, 0.31),
                 child: Text(
                   'Esqueci a Senha',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -94,7 +97,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(0.3, 0.56),
+                alignment: AlignmentDirectional(-0.08, 0.55),
                 child: Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 8.0, 0.0),
                   child: Container(
@@ -159,7 +162,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(0.18, 0.83),
+                alignment: AlignmentDirectional(-0.03, 0.78),
                 child: FFButtonWidget(
                   onPressed: () async {
                     if (_model.emailController.text.isEmpty) {

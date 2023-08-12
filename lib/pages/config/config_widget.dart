@@ -78,19 +78,22 @@ class _ConfigWidgetState extends State<ConfigWidget> {
               top: true,
               child: Stack(
                 children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Background.png',
-                      width: 406.0,
-                      height: 866.0,
-                      fit: BoxFit.cover,
+                  Align(
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(8.0),
+                      child: Image.asset(
+                        'assets/images/Background.png',
+                        width: 1519.0,
+                        height: 866.0,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.12, -1.01),
+                    alignment: AlignmentDirectional(0.0, -1.0),
                     child: Container(
-                      width: 455.0,
+                      width: 1344.0,
                       height: 82.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -188,7 +191,7 @@ class _ConfigWidgetState extends State<ConfigWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.87, -0.99),
+                    alignment: AlignmentDirectional(-0.94, -0.98),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(250.0),
                       child: Image.asset(
@@ -199,7 +202,7 @@ class _ConfigWidgetState extends State<ConfigWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.08, -0.48),
+                    alignment: AlignmentDirectional(-0.02, -0.48),
                     child: FFButtonWidget(
                       onPressed: () async {
                         GoRouter.of(context).prepareAuthEvent();

@@ -43,18 +43,21 @@ class _DefineYourGoalsWidgetState extends State<DefineYourGoalsWidget> {
       onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Colors.white,
+        backgroundColor: FlutterFlowTheme.of(context).info,
         body: SafeArea(
           top: true,
           child: Stack(
             children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(8.0),
-                child: Image.asset(
-                  'assets/images/Design_sem_nome.png',
-                  width: 406.0,
-                  height: 866.0,
-                  fit: BoxFit.cover,
+              Align(
+                alignment: AlignmentDirectional(0.0, 0.0),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(8.0),
+                  child: Image.asset(
+                    'assets/images/Design_sem_nome.png',
+                    width: 1745.0,
+                    height: 866.0,
+                    fit: BoxFit.fill,
+                  ),
                 ),
               ),
               Align(
@@ -81,7 +84,7 @@ class _DefineYourGoalsWidgetState extends State<DefineYourGoalsWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(0.67, -0.39),
+                alignment: AlignmentDirectional(0.09, -0.52),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(8.0),
                   child: Image.asset(

@@ -123,7 +123,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                         child: Image.asset(
                           'assets/images/Design_sem_nome.png',
-                          width: 406.0,
+                          width: 1450.0,
                           height: 866.0,
                           fit: BoxFit.cover,
                         ),
@@ -131,7 +131,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.01, -1.02),
                         child: Container(
-                          width: 450.0,
+                          width: 1464.0,
                           height: 100.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context).info,
@@ -180,7 +180,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.71),
+                        alignment: AlignmentDirectional(-0.16, -0.72),
                         child: Text(
                           'Qual seu exercicio?',
                           style: FlutterFlowTheme.of(context)
@@ -194,7 +194,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.82, 0.42),
+                        alignment: AlignmentDirectional(-0.16, 0.45),
                         child: Text(
                           'Quantas repetições?',
                           style: FlutterFlowTheme.of(context)
@@ -208,7 +208,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.56, 0.88),
+                        alignment: AlignmentDirectional(0.17, 0.86),
                         child: FFButtonWidget(
                           onPressed: () async {
                             context.pushNamed(
@@ -246,7 +246,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.65, 0.88),
+                        alignment: AlignmentDirectional(-0.21, 0.86),
                         child: FFButtonWidget(
                           onPressed: () async {
                             if (_model.formKey.currentState == null ||
@@ -300,7 +300,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.47),
+                        alignment: AlignmentDirectional(-0.15, -0.47),
                         child: Text(
                           'Descreva seu exercicio',
                           style: FlutterFlowTheme.of(context)
@@ -324,7 +324,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                                 children: [
                                   Align(
                                     alignment:
-                                        AlignmentDirectional(-0.8, -0.63),
+                                        AlignmentDirectional(-0.03, -0.63),
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           8.0, 0.0, 8.0, 0.0),
@@ -417,7 +417,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                                   ),
                                   Align(
                                     alignment:
-                                        AlignmentDirectional(-0.79, -0.2),
+                                        AlignmentDirectional(0.01, -0.19),
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           8.0, 0.0, 8.0, 0.0),
@@ -516,7 +516,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.82, 0.2),
+                        alignment: AlignmentDirectional(-0.19, 0.2),
                         child: Text(
                           'Quantas séries?',
                           style: FlutterFlowTheme.of(context)
@@ -530,7 +530,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.82, 0.32),
+                        alignment: AlignmentDirectional(-0.04, 0.34),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),
@@ -608,7 +608,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.85, 0.56),
+                        alignment: AlignmentDirectional(-0.04, 0.6),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),

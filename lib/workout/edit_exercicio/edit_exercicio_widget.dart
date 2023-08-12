@@ -120,7 +120,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                         child: Image.asset(
                           'assets/images/Design_sem_nome.png',
-                          width: 406.0,
+                          width: 1506.0,
                           height: 866.0,
                           fit: BoxFit.cover,
                         ),
@@ -128,7 +128,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.01, -1.02),
                         child: Container(
-                          width: 450.0,
+                          width: 1368.0,
                           height: 100.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context).info,
@@ -177,7 +177,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.71),
+                        alignment: AlignmentDirectional(-0.18, -0.72),
                         child: Text(
                           'Qual seu exercicio?',
                           style: FlutterFlowTheme.of(context)
@@ -191,7 +191,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.82, 0.42),
+                        alignment: AlignmentDirectional(-0.17, 0.47),
                         child: Text(
                           'Quantas repetições?',
                           style: FlutterFlowTheme.of(context)
@@ -205,7 +205,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.2, 0.88),
+                        alignment: AlignmentDirectional(0.11, 0.9),
                         child: FFButtonWidget(
                           onPressed: () async {
                             context.pushNamed(
@@ -243,7 +243,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.78, 0.88),
+                        alignment: AlignmentDirectional(-0.15, 0.9),
                         child: FFButtonWidget(
                           onPressed: () async {
                             if (_model.formKey.currentState == null ||
@@ -305,7 +305,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.47),
+                        alignment: AlignmentDirectional(-0.17, -0.47),
                         child: Text(
                           'Descreva seu exercicio',
                           style: FlutterFlowTheme.of(context)
@@ -319,7 +319,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.77, 0.88),
+                        alignment: AlignmentDirectional(0.32, 0.9),
                         child: FlutterFlowIconButton(
                           borderColor:
                               FlutterFlowTheme.of(context).customColor3,
@@ -362,7 +362,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                                 children: [
                                   Align(
                                     alignment:
-                                        AlignmentDirectional(-0.8, -0.63),
+                                        AlignmentDirectional(-0.05, -0.63),
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           8.0, 0.0, 8.0, 0.0),
@@ -459,7 +459,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                                   ),
                                   Align(
                                     alignment:
-                                        AlignmentDirectional(-0.79, -0.2),
+                                        AlignmentDirectional(-0.03, -0.17),
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           8.0, 0.0, 8.0, 0.0),
@@ -562,7 +562,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.82, 0.2),
+                        alignment: AlignmentDirectional(-0.19, 0.24),
                         child: Text(
                           'Quantas séries?',
                           style: FlutterFlowTheme.of(context)
@@ -576,7 +576,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.82, 0.32),
+                        alignment: AlignmentDirectional(-0.06, 0.38),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),
@@ -660,7 +660,7 @@ class _EditExercicioWidgetState extends State<EditExercicioWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.85, 0.56),
+                        alignment: AlignmentDirectional(-0.06, 0.6),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),

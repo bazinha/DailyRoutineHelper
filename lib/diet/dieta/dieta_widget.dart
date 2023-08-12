@@ -84,7 +84,7 @@ class _DietaWidgetState extends State<DietaWidget> {
                       borderRadius: BorderRadius.circular(8.0),
                       child: Image.asset(
                         'assets/images/Design_sem_nome.png',
-                        width: 406.0,
+                        width: 1649.0,
                         height: 866.0,
                         fit: BoxFit.cover,
                       ),
@@ -93,7 +93,7 @@ class _DietaWidgetState extends State<DietaWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.01, -1.02),
                     child: Container(
-                      width: 450.0,
+                      width: 1342.0,
                       height: 100.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -148,7 +148,7 @@ class _DietaWidgetState extends State<DietaWidget> {
                             alignment: AlignmentDirectional(0.0, -1.0),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 120.0, 0.0, 0.0),
+                                  450.0, 120.0, 0.0, 0.0),
                               child: FutureBuilder<List<DietaRow>>(
                                 future: DietaTable().queryRows(
                                   queryFn: (q) => q
@@ -399,7 +399,7 @@ class _DietaWidgetState extends State<DietaWidget> {
                   Align(
                     alignment: AlignmentDirectional(-0.17, 1.0),
                     child: Container(
-                      width: 411.0,
+                      width: 1422.0,
                       height: 73.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -407,7 +407,7 @@ class _DietaWidgetState extends State<DietaWidget> {
                       child: Stack(
                         children: [
                           Align(
-                            alignment: AlignmentDirectional(-1.0, -0.97),
+                            alignment: AlignmentDirectional(-0.99, -0.98),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   15.0, 0.0, 0.0, 0.0),
@@ -467,7 +467,7 @@ class _DietaWidgetState extends State<DietaWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.86, -4.11),
+                            alignment: AlignmentDirectional(0.81, -4.2),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -504,7 +504,7 @@ class _DietaWidgetState extends State<DietaWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(-0.36, -0.97),
+                            alignment: AlignmentDirectional(-0.42, -1.15),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -540,7 +540,7 @@ class _DietaWidgetState extends State<DietaWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.22, -1.89),
+                            alignment: AlignmentDirectional(0.17, -2.97),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,

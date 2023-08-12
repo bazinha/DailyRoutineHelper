@@ -50,7 +50,7 @@ class _AuthenticationWidgetState extends State<AuthenticationWidget> {
       onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Colors.white,
+        backgroundColor: FlutterFlowTheme.of(context).info,
         body: SafeArea(
           top: true,
           child: Stack(
@@ -59,13 +59,13 @@ class _AuthenticationWidgetState extends State<AuthenticationWidget> {
                 borderRadius: BorderRadius.circular(8.0),
                 child: Image.asset(
                   'assets/images/Design_sem_nome.png',
-                  width: 406.0,
+                  width: 1519.0,
                   height: 866.0,
-                  fit: BoxFit.cover,
+                  fit: BoxFit.fill,
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.44, -1.09),
+                alignment: AlignmentDirectional(-0.02, -1.12),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(8.0),
                   child: Image.asset(
@@ -250,7 +250,7 @@ class _AuthenticationWidgetState extends State<AuthenticationWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.02, 0.42),
+                alignment: AlignmentDirectional(0.06, 0.42),
                 child: FFButtonWidget(
                   onPressed: () async {
                     GoRouter.of(context).prepareAuthEvent();
@@ -291,7 +291,7 @@ class _AuthenticationWidgetState extends State<AuthenticationWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.58, 0.51),
+                alignment: AlignmentDirectional(-0.11, 0.51),
                 child: InkWell(
                   splashColor: Colors.transparent,
                   focusColor: Colors.transparent,

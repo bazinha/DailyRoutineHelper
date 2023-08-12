@@ -119,7 +119,7 @@ class _EditWorkoutWidgetState extends State<EditWorkoutWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                         child: Image.asset(
                           'assets/images/Design_sem_nome.png',
-                          width: 406.0,
+                          width: 1388.0,
                           height: 866.0,
                           fit: BoxFit.cover,
                         ),
@@ -127,7 +127,7 @@ class _EditWorkoutWidgetState extends State<EditWorkoutWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.01, -1.02),
                         child: Container(
-                          width: 450.0,
+                          width: 1376.0,
                           height: 100.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context).info,
@@ -176,7 +176,7 @@ class _EditWorkoutWidgetState extends State<EditWorkoutWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.71),
+                        alignment: AlignmentDirectional(-0.16, -0.71),
                         child: Text(
                           'Qual seu treino?',
                           style: FlutterFlowTheme.of(context)
@@ -190,7 +190,7 @@ class _EditWorkoutWidgetState extends State<EditWorkoutWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.2, 0.88),
+                        alignment: AlignmentDirectional(0.2, 0.87),
                         child: FFButtonWidget(
                           onPressed: () async {
                             context.pushNamed(
@@ -228,7 +228,7 @@ class _EditWorkoutWidgetState extends State<EditWorkoutWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.78, 0.88),
+                        alignment: AlignmentDirectional(-0.14, 0.87),
                         child: FFButtonWidget(
                           onPressed: () async {
                             if (_model.formKey.currentState == null ||
@@ -288,7 +288,7 @@ class _EditWorkoutWidgetState extends State<EditWorkoutWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.83, -0.47),
+                        alignment: AlignmentDirectional(-0.12, -0.3),
                         child: Text(
                           'Conte mais sobre seu treino',
                           style: FlutterFlowTheme.of(context)
@@ -302,7 +302,7 @@ class _EditWorkoutWidgetState extends State<EditWorkoutWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.77, 0.88),
+                        alignment: AlignmentDirectional(0.37, 0.87),
                         child: FlutterFlowIconButton(
                           borderColor:
                               FlutterFlowTheme.of(context).customColor3,
@@ -355,7 +355,7 @@ class _EditWorkoutWidgetState extends State<EditWorkoutWidget> {
                                 children: [
                                   Align(
                                     alignment:
-                                        AlignmentDirectional(-0.8, -0.63),
+                                        AlignmentDirectional(-0.02, -0.61),
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           8.0, 0.0, 8.0, 0.0),
@@ -453,7 +453,7 @@ class _EditWorkoutWidgetState extends State<EditWorkoutWidget> {
                               ),
                             ),
                             Align(
-                              alignment: AlignmentDirectional(-0.65, -0.19),
+                              alignment: AlignmentDirectional(0.0, 0.07),
                               child: Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     8.0, 0.0, 8.0, 0.0),

@@ -57,13 +57,13 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                 borderRadius: BorderRadius.circular(8.0),
                 child: Image.asset(
                   'assets/images/Design_sem_nome.png',
-                  width: 406.0,
+                  width: 1412.0,
                   height: 866.0,
                   fit: BoxFit.cover,
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.44, -1.09),
+                alignment: AlignmentDirectional(0.02, -0.98),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(8.0),
                   child: Image.asset(
@@ -75,7 +75,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.62, -0.16),
+                alignment: AlignmentDirectional(-0.1, -0.14),
                 child: Text(
                   'Cadastro',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -87,7 +87,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.07, 0.68),
+                alignment: AlignmentDirectional(0.09, 0.63),
                 child: FFButtonWidget(
                   onPressed: () async {
                     if (_model.formKey.currentState == null ||
@@ -126,7 +126,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                   },
                   text: 'Cadastrar',
                   options: FFButtonOptions(
-                    width: 271.0,
+                    width: 331.0,
                     height: 40.0,
                     padding:
                         EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
@@ -149,7 +149,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(-0.02, 0.92),
+                alignment: AlignmentDirectional(0.04, 0.92),
                 child: InkWell(
                   splashColor: Colors.transparent,
                   focusColor: Colors.transparent,
@@ -174,7 +174,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                 child: Stack(
                   children: [
                     Align(
-                      alignment: AlignmentDirectional(0.03, 0.17),
+                      alignment: AlignmentDirectional(0.05, 0.16),
                       child: Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 8.0, 0.0),
@@ -254,7 +254,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                       ),
                     ),
                     Align(
-                      alignment: AlignmentDirectional(-0.03, 0.33),
+                      alignment: AlignmentDirectional(0.04, 0.32),
                       child: Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 8.0, 0.0),
@@ -345,7 +345,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                       ),
                     ),
                     Align(
-                      alignment: AlignmentDirectional(-0.08, 0.5),
+                      alignment: AlignmentDirectional(0.05, 0.48),
                       child: Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 8.0, 0.0),

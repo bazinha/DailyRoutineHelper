@@ -85,7 +85,7 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                       borderRadius: BorderRadius.circular(8.0),
                       child: Image.asset(
                         'assets/images/Design_sem_nome.png',
-                        width: 406.0,
+                        width: 1591.0,
                         height: 866.0,
                         fit: BoxFit.cover,
                       ),
@@ -94,7 +94,7 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.01, -1.02),
                     child: Container(
-                      width: 450.0,
+                      width: 1366.0,
                       height: 100.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -149,7 +149,7 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                             alignment: AlignmentDirectional(0.0, -1.0),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 120.0, 0.0, 0.0),
+                                  450.0, 120.0, 0.0, 0.0),
                               child: FutureBuilder<List<TreinoRow>>(
                                 future: TreinoTable().queryRows(
                                   queryFn: (q) => q
@@ -311,23 +311,29 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                                                                   CrossAxisAlignment
                                                                       .center,
                                                               children: [
-                                                                Text(
-                                                                  columnTreinoRow
-                                                                      .descricaoTreino,
-                                                                  textAlign:
-                                                                      TextAlign
-                                                                          .start,
-                                                                  style: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyMedium
-                                                                      .override(
-                                                                        fontFamily:
-                                                                            'Plus Jakarta Sans',
-                                                                        color: Colors
-                                                                            .black,
-                                                                        fontWeight:
-                                                                            FontWeight.normal,
-                                                                      ),
+                                                                Align(
+                                                                  alignment:
+                                                                      AlignmentDirectional(
+                                                                          0.0,
+                                                                          0.8),
+                                                                  child: Text(
+                                                                    columnTreinoRow
+                                                                        .descricaoTreino,
+                                                                    textAlign:
+                                                                        TextAlign
+                                                                            .start,
+                                                                    style: FlutterFlowTheme.of(
+                                                                            context)
+                                                                        .bodyMedium
+                                                                        .override(
+                                                                          fontFamily:
+                                                                              'Plus Jakarta Sans',
+                                                                          color:
+                                                                              Colors.black,
+                                                                          fontWeight:
+                                                                              FontWeight.normal,
+                                                                        ),
+                                                                  ),
                                                                 ),
                                                               ],
                                                             ),
@@ -341,7 +347,7 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                                             ],
                                           ),
                                         );
-                                      }).divide(SizedBox(height: 5.0)),
+                                      }).divide(SizedBox(height: 15.0)),
                                     ),
                                   );
                                 },
@@ -384,7 +390,7 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                   Align(
                     alignment: AlignmentDirectional(-0.17, 1.0),
                     child: Container(
-                      width: 411.0,
+                      width: 1540.0,
                       height: 73.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -392,7 +398,7 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                       child: Stack(
                         children: [
                           Align(
-                            alignment: AlignmentDirectional(-1.0, -0.97),
+                            alignment: AlignmentDirectional(-0.99, -1.15),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   15.0, 0.0, 0.0, 0.0),
@@ -452,7 +458,7 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.86, -4.11),
+                            alignment: AlignmentDirectional(0.81, -4.5),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -489,7 +495,7 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(-0.36, -0.97),
+                            alignment: AlignmentDirectional(-0.41, -0.98),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -525,7 +531,7 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.22, -1.89),
+                            alignment: AlignmentDirectional(0.17, -1.73),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -538,7 +544,7 @@ class _WorkoutWidgetState extends State<WorkoutWidget> {
                                 size: 70.0,
                               ),
                               onPressed: () async {
-                                context.pushNamed('Workout');
+                                context.pushNamed('Dieta');
                               },
                             ),
                           ),

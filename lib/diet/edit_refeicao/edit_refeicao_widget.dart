@@ -122,7 +122,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                         child: Image.asset(
                           'assets/images/Design_sem_nome.png',
-                          width: 406.0,
+                          width: 1592.0,
                           height: 866.0,
                           fit: BoxFit.cover,
                         ),
@@ -130,7 +130,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.01, -1.02),
                         child: Container(
-                          width: 450.0,
+                          width: 1470.0,
                           height: 100.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context).info,
@@ -179,7 +179,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.71),
+                        alignment: AlignmentDirectional(-0.15, -0.72),
                         child: Text(
                           'Qual sua refeicao?',
                           style: FlutterFlowTheme.of(context)
@@ -193,7 +193,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.48),
+                        alignment: AlignmentDirectional(-0.17, -0.48),
                         child: Text(
                           'Qual o horario?',
                           style: FlutterFlowTheme.of(context)
@@ -207,7 +207,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.2, 0.88),
+                        alignment: AlignmentDirectional(0.17, 0.87),
                         child: FFButtonWidget(
                           onPressed: () async {
                             context.pushNamed(
@@ -245,7 +245,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.78, 0.88),
+                        alignment: AlignmentDirectional(-0.17, 0.87),
                         child: FFButtonWidget(
                           onPressed: () async {
                             if (_model.formKey.currentState == null ||
@@ -304,7 +304,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.25),
+                        alignment: AlignmentDirectional(-0.09, -0.2),
                         child: Text(
                           'Conte mais sobre a sua refeicao',
                           style: FlutterFlowTheme.of(context)
@@ -318,7 +318,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.77, 0.88),
+                        alignment: AlignmentDirectional(0.36, 0.86),
                         child: FlutterFlowIconButton(
                           borderColor:
                               FlutterFlowTheme.of(context).customColor3,
@@ -358,7 +358,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                             Stack(
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(-0.8, -0.39),
+                                  alignment: AlignmentDirectional(-0.02, -0.38),
                                   child: Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         8.0, 0.0, 8.0, 0.0),
@@ -456,7 +456,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                                   ),
                                 ),
                                 Align(
-                                  alignment: AlignmentDirectional(-0.8, -0.63),
+                                  alignment: AlignmentDirectional(-0.01, -0.63),
                                   child: Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         8.0, 0.0, 8.0, 0.0),
@@ -552,7 +552,7 @@ class _EditRefeicaoWidgetState extends State<EditRefeicaoWidget> {
                               ],
                             ),
                             Align(
-                              alignment: AlignmentDirectional(-0.8, 0.09),
+                              alignment: AlignmentDirectional(0.01, 0.2),
                               child: Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     8.0, 0.0, 8.0, 0.0),

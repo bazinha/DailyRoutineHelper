@@ -90,7 +90,7 @@ class _AddRoutineWidgetState extends State<AddRoutineWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                         child: Image.asset(
                           'assets/images/Design_sem_nome.png',
-                          width: 406.0,
+                          width: 1418.0,
                           height: 866.0,
                           fit: BoxFit.cover,
                         ),
@@ -98,7 +98,7 @@ class _AddRoutineWidgetState extends State<AddRoutineWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.01, -1.02),
                         child: Container(
-                          width: 450.0,
+                          width: 1286.0,
                           height: 100.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context).info,
@@ -143,7 +143,7 @@ class _AddRoutineWidgetState extends State<AddRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.79, -0.73),
+                        alignment: AlignmentDirectional(-0.1, -0.73),
                         child: Text(
                           'Qual sua tarefa?',
                           style: FlutterFlowTheme.of(context)
@@ -157,7 +157,7 @@ class _AddRoutineWidgetState extends State<AddRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.69, 0.1),
+                        alignment: AlignmentDirectional(0.09, 0.1),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),
@@ -235,7 +235,7 @@ class _AddRoutineWidgetState extends State<AddRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.81, -0.49),
+                        alignment: AlignmentDirectional(-0.1, -0.49),
                         child: Text(
                           'Qual o horario?',
                           style: FlutterFlowTheme.of(context)
@@ -372,8 +372,7 @@ class _AddRoutineWidgetState extends State<AddRoutineWidget> {
                                     ),
                                   ),
                                   Align(
-                                    alignment:
-                                        AlignmentDirectional(-0.69, -0.5),
+                                    alignment: AlignmentDirectional(0.05, -0.5),
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           8.0, 0.0, 8.0, 0.0),
@@ -467,6 +466,58 @@ class _AddRoutineWidgetState extends State<AddRoutineWidget> {
                                       ),
                                     ),
                                   ),
+                                  Align(
+                                    alignment:
+                                        AlignmentDirectional(-0.23, 0.86),
+                                    child: FFButtonWidget(
+                                      onPressed: () async {
+                                        if (_model.formKey.currentState ==
+                                                null ||
+                                            !_model.formKey.currentState!
+                                                .validate()) {
+                                          return;
+                                        }
+                                        await RotinaTable().insert({
+                                          'nome_rotina':
+                                              _model.nameTarefaController.text,
+                                          'descricao_rotina':
+                                              _model.descricaoController.text,
+                                          'horario_rotina':
+                                              _model.horaController.text,
+                                          'codigo_usario':
+                                              addRoutineUsuarioRow?.codigo,
+                                          'codigo_ativo': true,
+                                        });
+
+                                        context.pushNamed('Routine');
+                                      },
+                                      text: 'Confirmar',
+                                      options: FFButtonOptions(
+                                        width: 122.0,
+                                        height: 40.0,
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            24.0, 0.0, 24.0, 0.0),
+                                        iconPadding:
+                                            EdgeInsetsDirectional.fromSTEB(
+                                                0.0, 0.0, 0.0, 0.0),
+                                        color:
+                                            FlutterFlowTheme.of(context).info,
+                                        textStyle: FlutterFlowTheme.of(context)
+                                            .titleSmall
+                                            .override(
+                                              fontFamily: 'Plus Jakarta Sans',
+                                              color: Colors.white,
+                                            ),
+                                        elevation: 3.0,
+                                        borderSide: BorderSide(
+                                          color: Colors.transparent,
+                                          width: 1.0,
+                                        ),
+                                        borderRadius:
+                                            BorderRadius.circular(8.0),
+                                      ),
+                                    ),
+                                  ),
                                 ],
                               ),
                             ),
@@ -474,7 +525,7 @@ class _AddRoutineWidgetState extends State<AddRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.56, 0.88),
+                        alignment: AlignmentDirectional(0.29, 0.87),
                         child: FFButtonWidget(
                           onPressed: () async {
                             context.pushNamed('Routine');
@@ -504,7 +555,7 @@ class _AddRoutineWidgetState extends State<AddRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.77, -0.26),
+                        alignment: AlignmentDirectional(-0.06, -0.26),
                         child: Text(
                           'Conte mais sobre a tarefa',
                           style: FlutterFlowTheme.of(context)
@@ -518,88 +569,6 @@ class _AddRoutineWidgetState extends State<AddRoutineWidget> {
                         ),
                       ),
                     ],
-                  ),
-                  Align(
-                    alignment: AlignmentDirectional(-0.77, 0.92),
-                    child: FutureBuilder<List<DiaRow>>(
-                      future: DiaTable().queryRows(
-                        queryFn: (q) => q,
-                      ),
-                      builder: (context, snapshot) {
-                        // Customize what your widget looks like when it's loading.
-                        if (!snapshot.hasData) {
-                          return Center(
-                            child: SizedBox(
-                              width: 50.0,
-                              height: 50.0,
-                              child: CircularProgressIndicator(
-                                valueColor: AlwaysStoppedAnimation<Color>(
-                                  FlutterFlowTheme.of(context).primary,
-                                ),
-                              ),
-                            ),
-                          );
-                        }
-                        List<DiaRow> stackDiaRowList = snapshot.data!;
-                        return Container(
-                          width: 371.0,
-                          height: 65.0,
-                          child: Stack(
-                            children: List.generate(stackDiaRowList.length,
-                                (stackIndex) {
-                              final stackDiaRow = stackDiaRowList[stackIndex];
-                              return Align(
-                                alignment: AlignmentDirectional(-0.65, -0.1),
-                                child: FFButtonWidget(
-                                  onPressed: () async {
-                                    if (_model.formKey.currentState == null ||
-                                        !_model.formKey.currentState!
-                                            .validate()) {
-                                      return;
-                                    }
-                                    await RotinaTable().insert({
-                                      'nome_rotina':
-                                          _model.nameTarefaController.text,
-                                      'descricao_rotina':
-                                          _model.descricaoController.text,
-                                      'horario_rotina':
-                                          _model.horaController.text,
-                                      'codigo_usario':
-                                          addRoutineUsuarioRow?.codigo,
-                                      'codigo_ativo': true,
-                                    });
-
-                                    context.pushNamed('Routine');
-                                  },
-                                  text: 'Confirmar',
-                                  options: FFButtonOptions(
-                                    width: 122.0,
-                                    height: 40.0,
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        24.0, 0.0, 24.0, 0.0),
-                                    iconPadding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 0.0, 0.0, 0.0),
-                                    color: FlutterFlowTheme.of(context).info,
-                                    textStyle: FlutterFlowTheme.of(context)
-                                        .titleSmall
-                                        .override(
-                                          fontFamily: 'Plus Jakarta Sans',
-                                          color: Colors.white,
-                                        ),
-                                    elevation: 3.0,
-                                    borderSide: BorderSide(
-                                      color: Colors.transparent,
-                                      width: 1.0,
-                                    ),
-                                    borderRadius: BorderRadius.circular(8.0),
-                                  ),
-                                ),
-                              );
-                            }),
-                          ),
-                        );
-                      },
-                    ),
                   ),
                 ],
               ),

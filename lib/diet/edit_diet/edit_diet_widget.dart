@@ -57,7 +57,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
         // Customize what your widget looks like when it's loading.
         if (!snapshot.hasData) {
           return Scaffold(
-            backgroundColor: Colors.white,
+            backgroundColor: FlutterFlowTheme.of(context).info,
             body: Center(
               child: SizedBox(
                 width: 50.0,
@@ -79,7 +79,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
           onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
           child: Scaffold(
             key: scaffoldKey,
-            backgroundColor: Colors.white,
+            backgroundColor: FlutterFlowTheme.of(context).info,
             body: SafeArea(
               top: true,
               child: FutureBuilder<List<DietaRow>>(
@@ -119,7 +119,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                         child: Image.asset(
                           'assets/images/Design_sem_nome.png',
-                          width: 406.0,
+                          width: 1518.0,
                           height: 866.0,
                           fit: BoxFit.cover,
                         ),
@@ -127,7 +127,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.01, -1.02),
                         child: Container(
-                          width: 450.0,
+                          width: 1406.0,
                           height: 100.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context).info,
@@ -176,7 +176,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.71),
+                        alignment: AlignmentDirectional(-0.22, -0.71),
                         child: Text(
                           'Qual sua dieta?',
                           style: FlutterFlowTheme.of(context)
@@ -190,7 +190,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.2, 0.88),
+                        alignment: AlignmentDirectional(0.1, 0.87),
                         child: FFButtonWidget(
                           onPressed: () async {
                             context.pushNamed(
@@ -228,7 +228,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.78, 0.88),
+                        alignment: AlignmentDirectional(-0.22, 0.87),
                         child: FFButtonWidget(
                           onPressed: () async {
                             if (_model.formKey.currentState == null ||
@@ -284,7 +284,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.83, -0.47),
+                        alignment: AlignmentDirectional(-0.15, -0.44),
                         child: Text(
                           'Conte mais sobre a sua dieta',
                           style: FlutterFlowTheme.of(context)
@@ -298,7 +298,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.77, 0.88),
+                        alignment: AlignmentDirectional(0.31, 0.87),
                         child: FlutterFlowIconButton(
                           borderColor:
                               FlutterFlowTheme.of(context).customColor3,
@@ -351,7 +351,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
                                 children: [
                                   Align(
                                     alignment:
-                                        AlignmentDirectional(-0.8, -0.63),
+                                        AlignmentDirectional(-0.07, -0.62),
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           8.0, 0.0, 8.0, 0.0),
@@ -449,7 +449,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
                               ),
                             ),
                             Align(
-                              alignment: AlignmentDirectional(-0.65, -0.19),
+                              alignment: AlignmentDirectional(-0.04, -0.11),
                               child: Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     8.0, 0.0, 8.0, 0.0),
@@ -539,7 +539,7 @@ class _EditDietWidgetState extends State<EditDietWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.8, 0.3),
+                        alignment: AlignmentDirectional(-0.15, 0.36),
                         child: Container(
                           width: 204.0,
                           height: 30.0,

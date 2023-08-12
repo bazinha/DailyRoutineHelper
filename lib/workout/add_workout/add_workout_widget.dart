@@ -85,7 +85,7 @@ class _AddWorkoutWidgetState extends State<AddWorkoutWidget> {
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
                       'assets/images/Design_sem_nome.png',
-                      width: 406.0,
+                      width: 1336.0,
                       height: 866.0,
                       fit: BoxFit.cover,
                     ),
@@ -93,7 +93,7 @@ class _AddWorkoutWidgetState extends State<AddWorkoutWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.01, -1.02),
                     child: Container(
-                      width: 450.0,
+                      width: 1302.0,
                       height: 100.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -142,7 +142,7 @@ class _AddWorkoutWidgetState extends State<AddWorkoutWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.84, -0.71),
+                    alignment: AlignmentDirectional(-0.16, -0.65),
                     child: Text(
                       'Qual seu treino?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -153,7 +153,7 @@ class _AddWorkoutWidgetState extends State<AddWorkoutWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.56, 0.88),
+                    alignment: AlignmentDirectional(0.13, 0.86),
                     child: FFButtonWidget(
                       onPressed: () async {
                         context.pushNamed('Workout');
@@ -182,7 +182,7 @@ class _AddWorkoutWidgetState extends State<AddWorkoutWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.65, 0.88),
+                    alignment: AlignmentDirectional(-0.19, 0.86),
                     child: FFButtonWidget(
                       onPressed: () async {
                         if (_model.formKey.currentState == null ||
@@ -222,7 +222,7 @@ class _AddWorkoutWidgetState extends State<AddWorkoutWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.83, -0.47),
+                    alignment: AlignmentDirectional(-0.12, -0.25),
                     child: Text(
                       'Conte mais sobre seu treino',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -242,7 +242,7 @@ class _AddWorkoutWidgetState extends State<AddWorkoutWidget> {
                           child: Stack(
                             children: [
                               Align(
-                                alignment: AlignmentDirectional(-0.8, -0.63),
+                                alignment: AlignmentDirectional(-0.02, -0.54),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8.0, 0.0, 8.0, 0.0),
@@ -328,7 +328,7 @@ class _AddWorkoutWidgetState extends State<AddWorkoutWidget> {
                           ),
                         ),
                         Align(
-                          alignment: AlignmentDirectional(-0.65, -0.19),
+                          alignment: AlignmentDirectional(0.0, 0.15),
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 0.0, 8.0, 0.0),

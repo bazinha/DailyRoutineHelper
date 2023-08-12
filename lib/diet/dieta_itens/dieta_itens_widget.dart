@@ -57,7 +57,7 @@ class _DietaItensWidgetState extends State<DietaItensWidget> {
         // Customize what your widget looks like when it's loading.
         if (!snapshot.hasData) {
           return Scaffold(
-            backgroundColor: Colors.white,
+            backgroundColor: FlutterFlowTheme.of(context).info,
             body: Center(
               child: SizedBox(
                 width: 50.0,
@@ -79,7 +79,7 @@ class _DietaItensWidgetState extends State<DietaItensWidget> {
           onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
           child: Scaffold(
             key: scaffoldKey,
-            backgroundColor: Colors.white,
+            backgroundColor: FlutterFlowTheme.of(context).info,
             body: SafeArea(
               top: true,
               child: Stack(
@@ -90,7 +90,7 @@ class _DietaItensWidgetState extends State<DietaItensWidget> {
                       borderRadius: BorderRadius.circular(8.0),
                       child: Image.asset(
                         'assets/images/Design_sem_nome.png',
-                        width: 406.0,
+                        width: 1559.0,
                         height: 866.0,
                         fit: BoxFit.cover,
                       ),
@@ -99,7 +99,7 @@ class _DietaItensWidgetState extends State<DietaItensWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.01, -1.02),
                     child: Container(
-                      width: 450.0,
+                      width: 1332.0,
                       height: 100.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -432,95 +432,78 @@ class _DietaItensWidgetState extends State<DietaItensWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(-0.99, 0.99),
-                            child: Container(
-                              width: 399.0,
-                              height: 98.0,
-                              child: Stack(
-                                children: [
-                                  Align(
-                                    alignment: AlignmentDirectional(0.91, 0.1),
-                                    child: FFButtonWidget(
-                                      onPressed: () async {
-                                        context.pushNamed(
-                                          'EditDiet',
-                                          queryParameters: {
-                                            'codigoDieta': serializeParam(
-                                              widget.codigoDieta,
-                                              ParamType.int,
-                                            ),
-                                          }.withoutNulls,
-                                        );
-                                      },
-                                      text: 'Editar Dieta',
-                                      options: FFButtonOptions(
-                                        width: 181.0,
-                                        height: 40.0,
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            24.0, 0.0, 24.0, 0.0),
-                                        iconPadding:
-                                            EdgeInsetsDirectional.fromSTEB(
-                                                0.0, 0.0, 0.0, 0.0),
-                                        color:
-                                            FlutterFlowTheme.of(context).info,
-                                        textStyle: FlutterFlowTheme.of(context)
-                                            .titleSmall
-                                            .override(
-                                              fontFamily: 'Plus Jakarta Sans',
-                                              color: Colors.white,
-                                            ),
-                                        elevation: 3.0,
-                                        borderSide: BorderSide(
-                                          color: Colors.transparent,
-                                          width: 1.0,
-                                        ),
-                                        borderRadius:
-                                            BorderRadius.circular(8.0),
-                                      ),
+                            alignment: AlignmentDirectional(0.27, 0.92),
+                            child: FFButtonWidget(
+                              onPressed: () async {
+                                context.pushNamed(
+                                  'EditDiet',
+                                  queryParameters: {
+                                    'codigoDieta': serializeParam(
+                                      widget.codigoDieta,
+                                      ParamType.int,
                                     ),
-                                  ),
-                                  Align(
-                                    alignment: AlignmentDirectional(-0.87, 0.1),
-                                    child: FFButtonWidget(
-                                      onPressed: () async {
-                                        context.pushNamed(
-                                          'CreateDiet',
-                                          queryParameters: {
-                                            'codigoDieta': serializeParam(
-                                              widget.codigoDieta,
-                                              ParamType.int,
-                                            ),
-                                          }.withoutNulls,
-                                        );
-                                      },
-                                      text: 'Adicionar Refeicao',
-                                      options: FFButtonOptions(
-                                        width: 179.0,
-                                        height: 40.0,
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            24.0, 0.0, 24.0, 0.0),
-                                        iconPadding:
-                                            EdgeInsetsDirectional.fromSTEB(
-                                                0.0, 0.0, 0.0, 0.0),
-                                        color:
-                                            FlutterFlowTheme.of(context).info,
-                                        textStyle: FlutterFlowTheme.of(context)
-                                            .titleSmall
-                                            .override(
-                                              fontFamily: 'Plus Jakarta Sans',
-                                              color: Colors.white,
-                                            ),
-                                        elevation: 3.0,
-                                        borderSide: BorderSide(
-                                          color: Colors.transparent,
-                                          width: 1.0,
-                                        ),
-                                        borderRadius:
-                                            BorderRadius.circular(8.0),
-                                      ),
+                                  }.withoutNulls,
+                                );
+                              },
+                              text: 'Editar Dieta',
+                              options: FFButtonOptions(
+                                width: 181.0,
+                                height: 40.0,
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    24.0, 0.0, 24.0, 0.0),
+                                iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 0.0, 0.0, 0.0),
+                                color: FlutterFlowTheme.of(context).info,
+                                textStyle: FlutterFlowTheme.of(context)
+                                    .titleSmall
+                                    .override(
+                                      fontFamily: 'Plus Jakarta Sans',
+                                      color: Colors.white,
                                     ),
-                                  ),
-                                ],
+                                elevation: 3.0,
+                                borderSide: BorderSide(
+                                  color: Colors.transparent,
+                                  width: 1.0,
+                                ),
+                                borderRadius: BorderRadius.circular(8.0),
+                              ),
+                            ),
+                          ),
+                          Align(
+                            alignment: AlignmentDirectional(-0.3, 0.91),
+                            child: FFButtonWidget(
+                              onPressed: () async {
+                                context.pushNamed(
+                                  'CreateDiet',
+                                  queryParameters: {
+                                    'codigoDieta': serializeParam(
+                                      widget.codigoDieta,
+                                      ParamType.int,
+                                    ),
+                                  }.withoutNulls,
+                                );
+                              },
+                              text: 'Adicionar Refeicao',
+                              options: FFButtonOptions(
+                                width: 179.0,
+                                height: 40.0,
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    24.0, 0.0, 24.0, 0.0),
+                                iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 0.0, 0.0, 0.0),
+                                color: FlutterFlowTheme.of(context).info,
+                                textStyle: FlutterFlowTheme.of(context)
+                                    .titleSmall
+                                    .override(
+                                      fontFamily: 'Plus Jakarta Sans',
+                                      color: Colors.white,
+                                    ),
+                                elevation: 3.0,
+                                borderSide: BorderSide(
+                                  color: Colors.transparent,
+                                  width: 1.0,
+                                ),
+                                borderRadius: BorderRadius.circular(8.0),
                               ),
                             ),
                           ),
@@ -531,7 +514,7 @@ class _DietaItensWidgetState extends State<DietaItensWidget> {
                   Align(
                     alignment: AlignmentDirectional(-0.17, 1.0),
                     child: Container(
-                      width: 411.0,
+                      width: 1317.0,
                       height: 73.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -539,7 +522,7 @@ class _DietaItensWidgetState extends State<DietaItensWidget> {
                       child: Stack(
                         children: [
                           Align(
-                            alignment: AlignmentDirectional(-1.0, -0.97),
+                            alignment: AlignmentDirectional(-0.99, -0.98),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   15.0, 0.0, 0.0, 0.0),
@@ -599,7 +582,7 @@ class _DietaItensWidgetState extends State<DietaItensWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.86, -4.11),
+                            alignment: AlignmentDirectional(0.81, -4.5),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -636,7 +619,7 @@ class _DietaItensWidgetState extends State<DietaItensWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(-0.36, -0.97),
+                            alignment: AlignmentDirectional(-0.41, -0.98),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -672,7 +655,7 @@ class _DietaItensWidgetState extends State<DietaItensWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.22, -1.89),
+                            alignment: AlignmentDirectional(0.17, -2.35),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,

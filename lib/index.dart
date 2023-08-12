@@ -5,7 +5,7 @@ export '/pages/onboarding/organize_your_routine/organize_your_routine_widget.dar
     show OrganizeYourRoutineWidget;
 export '/pages/onboarding/create_health_habits/create_health_habits_widget.dart'
     show CreateHealthHabitsWidget;
-export '/pages/onboarding/authentication/authentication_widget.dart'
+export '/pages/authentication/authentication_widget.dart'
     show AuthenticationWidget;
 export '/pages/sign_up/sign_up_widget.dart' show SignUpWidget;
 export '/pages/onboarding/forgot_password/forgot_password_widget.dart'

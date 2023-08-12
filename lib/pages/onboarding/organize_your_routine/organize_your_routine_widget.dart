@@ -55,7 +55,7 @@ class _OrganizeYourRoutineWidgetState extends State<OrganizeYourRoutineWidget> {
                   borderRadius: BorderRadius.circular(8.0),
                   child: Image.asset(
                     'assets/images/Design_sem_nome.png',
-                    width: 406.0,
+                    width: 1414.0,
                     height: 866.0,
                     fit: BoxFit.cover,
                   ),
@@ -137,7 +137,7 @@ class _OrganizeYourRoutineWidgetState extends State<OrganizeYourRoutineWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(0.35, -0.55),
+                alignment: AlignmentDirectional(0.09, -0.97),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(8.0),
                   child: Image.asset(

@@ -92,7 +92,7 @@ class _CreateDietWidgetState extends State<CreateDietWidget> {
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
                       'assets/images/Design_sem_nome.png',
-                      width: 406.0,
+                      width: 1642.0,
                       height: 866.0,
                       fit: BoxFit.cover,
                     ),
@@ -100,7 +100,7 @@ class _CreateDietWidgetState extends State<CreateDietWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.01, -1.02),
                     child: Container(
-                      width: 450.0,
+                      width: 1516.0,
                       height: 100.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -149,7 +149,7 @@ class _CreateDietWidgetState extends State<CreateDietWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.84, -0.71),
+                    alignment: AlignmentDirectional(-0.14, -0.7),
                     child: Text(
                       'Qual sua refeicao?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -160,7 +160,7 @@ class _CreateDietWidgetState extends State<CreateDietWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.84, -0.48),
+                    alignment: AlignmentDirectional(-0.15, -0.4),
                     child: Text(
                       'Qual o horario?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -257,7 +257,7 @@ class _CreateDietWidgetState extends State<CreateDietWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.84, -0.25),
+                    alignment: AlignmentDirectional(-0.08, -0.08),
                     child: Text(
                       'Conte mais sobre a sua refeicao',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -277,7 +277,7 @@ class _CreateDietWidgetState extends State<CreateDietWidget> {
                           child: Stack(
                             children: [
                               Align(
-                                alignment: AlignmentDirectional(-0.8, -0.39),
+                                alignment: AlignmentDirectional(0.0, -0.28),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8.0, 0.0, 8.0, 0.0),
@@ -363,7 +363,7 @@ class _CreateDietWidgetState extends State<CreateDietWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: AlignmentDirectional(-0.8, -0.63),
+                                alignment: AlignmentDirectional(0.0, -0.6),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8.0, 0.0, 8.0, 0.0),
@@ -449,7 +449,7 @@ class _CreateDietWidgetState extends State<CreateDietWidget> {
                           ),
                         ),
                         Align(
-                          alignment: AlignmentDirectional(-0.8, 0.09),
+                          alignment: AlignmentDirectional(0.01, 0.37),
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 8.0, 0.0, 8.0, 0.0),

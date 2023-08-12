@@ -116,7 +116,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                         child: Image.asset(
                           'assets/images/Design_sem_nome.png',
-                          width: 406.0,
+                          width: 1377.0,
                           height: 866.0,
                           fit: BoxFit.cover,
                         ),
@@ -124,7 +124,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.01, -1.02),
                         child: Container(
-                          width: 450.0,
+                          width: 1322.0,
                           height: 100.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context).info,
@@ -169,7 +169,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.74, -0.31),
+                        alignment: AlignmentDirectional(0.0, -0.31),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),
@@ -255,7 +255,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.82, -0.67),
+                        alignment: AlignmentDirectional(-0.15, -0.65),
                         child: Text(
                           'Qual sua meta?',
                           style: FlutterFlowTheme.of(context)
@@ -269,7 +269,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.36, 0.24),
+                        alignment: AlignmentDirectional(0.02, 0.24),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),
@@ -350,7 +350,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.49, -0.31),
+                        alignment: AlignmentDirectional(0.18, -0.31),
                         child: FlutterFlowIconButton(
                           borderRadius: 20.0,
                           borderWidth: 1.0,
@@ -381,7 +381,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.83, -0.41),
+                        alignment: AlignmentDirectional(-0.15, -0.41),
                         child: Text(
                           'Qual o prazo final?',
                           style: FlutterFlowTheme.of(context)
@@ -425,7 +425,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.78, 0.88),
+                        alignment: AlignmentDirectional(-0.3, 0.88),
                         child: FFButtonWidget(
                           onPressed: () async {
                             await MetaTable().update(
@@ -471,7 +471,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.75, 0.56),
+                        alignment: AlignmentDirectional(-0.09, 0.6),
                         child: Container(
                           width: 204.0,
                           height: 30.0,
@@ -538,7 +538,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.75, -0.16),
+                        alignment: AlignmentDirectional(-0.08, -0.16),
                         child: Text(
                           'Conte mais sobre a sua meta',
                           style: FlutterFlowTheme.of(context)
@@ -552,7 +552,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.77, 0.88),
+                        alignment: AlignmentDirectional(0.5, 0.9),
                         child: FlutterFlowIconButton(
                           borderColor:
                               FlutterFlowTheme.of(context).customColor3,
@@ -585,7 +585,7 @@ class _EditGoalWidgetState extends State<EditGoalWidget> {
                           key: _model.formKey,
                           autovalidateMode: AutovalidateMode.always,
                           child: Align(
-                            alignment: AlignmentDirectional(-0.66, -0.57),
+                            alignment: AlignmentDirectional(0.0, -0.56),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   8.0, 0.0, 8.0, 0.0),

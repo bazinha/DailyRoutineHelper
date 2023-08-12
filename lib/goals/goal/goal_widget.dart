@@ -84,7 +84,7 @@ class _GoalWidgetState extends State<GoalWidget> {
                       borderRadius: BorderRadius.circular(8.0),
                       child: Image.asset(
                         'assets/images/Design_sem_nome.png',
-                        width: 406.0,
+                        width: 1553.0,
                         height: 866.0,
                         fit: BoxFit.cover,
                       ),
@@ -93,7 +93,7 @@ class _GoalWidgetState extends State<GoalWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.01, -1.02),
                     child: Container(
-                      width: 450.0,
+                      width: 1322.0,
                       height: 100.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -137,7 +137,7 @@ class _GoalWidgetState extends State<GoalWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-1.0, 0.0),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 150.0),
@@ -145,10 +145,10 @@ class _GoalWidgetState extends State<GoalWidget> {
                         alignment: AlignmentDirectional(-1.0, 0.0),
                         children: [
                           Align(
-                            alignment: AlignmentDirectional(-0.98, 0.0),
+                            alignment: AlignmentDirectional(0.0, -1.0),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 120.0, 0.0, 0.0),
+                                  450.0, 120.0, 0.0, 0.0),
                               child: FutureBuilder<List<MetaRow>>(
                                 future: MetaTable().queryRows(
                                   queryFn: (q) => q
@@ -415,7 +415,7 @@ class _GoalWidgetState extends State<GoalWidget> {
                   Align(
                     alignment: AlignmentDirectional(-0.17, 1.0),
                     child: Container(
-                      width: 411.0,
+                      width: 1314.0,
                       height: 73.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -423,7 +423,7 @@ class _GoalWidgetState extends State<GoalWidget> {
                       child: Stack(
                         children: [
                           Align(
-                            alignment: AlignmentDirectional(-1.0, -0.97),
+                            alignment: AlignmentDirectional(-0.99, -0.98),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   15.0, 0.0, 0.0, 0.0),
@@ -483,7 +483,7 @@ class _GoalWidgetState extends State<GoalWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.86, -4.11),
+                            alignment: AlignmentDirectional(0.81, -3.58),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -520,7 +520,7 @@ class _GoalWidgetState extends State<GoalWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(-0.36, -0.97),
+                            alignment: AlignmentDirectional(-0.41, -0.98),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -556,7 +556,7 @@ class _GoalWidgetState extends State<GoalWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.22, -1.89),
+                            alignment: AlignmentDirectional(0.18, -2.04),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,

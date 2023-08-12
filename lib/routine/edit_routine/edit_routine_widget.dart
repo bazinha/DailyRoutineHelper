@@ -115,7 +115,7 @@ class _EditRoutineWidgetState extends State<EditRoutineWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                         child: Image.asset(
                           'assets/images/Design_sem_nome.png',
-                          width: 406.0,
+                          width: 1592.0,
                           height: 866.0,
                           fit: BoxFit.cover,
                         ),
@@ -123,7 +123,7 @@ class _EditRoutineWidgetState extends State<EditRoutineWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.01, -1.02),
                         child: Container(
-                          width: 450.0,
+                          width: 1346.0,
                           height: 100.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context).info,
@@ -168,7 +168,7 @@ class _EditRoutineWidgetState extends State<EditRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.71),
+                        alignment: AlignmentDirectional(-0.16, -0.71),
                         child: Text(
                           'Qual sua tarefa?',
                           style: FlutterFlowTheme.of(context)
@@ -182,7 +182,7 @@ class _EditRoutineWidgetState extends State<EditRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.8, 0.09),
+                        alignment: AlignmentDirectional(-0.02, 0.19),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),
@@ -263,7 +263,7 @@ class _EditRoutineWidgetState extends State<EditRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.48),
+                        alignment: AlignmentDirectional(-0.18, -0.45),
                         child: Text(
                           'Qual o horario?',
                           style: FlutterFlowTheme.of(context)
@@ -307,7 +307,7 @@ class _EditRoutineWidgetState extends State<EditRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.78, 0.88),
+                        alignment: AlignmentDirectional(-0.24, 0.87),
                         child: FFButtonWidget(
                           onPressed: () async {
                             await RotinaTable().update(
@@ -350,7 +350,7 @@ class _EditRoutineWidgetState extends State<EditRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.84, -0.25),
+                        alignment: AlignmentDirectional(-0.13, -0.2),
                         child: Text(
                           'Conte mais sobre a sua tarefa',
                           style: FlutterFlowTheme.of(context)
@@ -364,7 +364,7 @@ class _EditRoutineWidgetState extends State<EditRoutineWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.77, 0.88),
+                        alignment: AlignmentDirectional(0.44, 0.87),
                         child: FlutterFlowIconButton(
                           borderColor:
                               FlutterFlowTheme.of(context).customColor3,
@@ -397,7 +397,7 @@ class _EditRoutineWidgetState extends State<EditRoutineWidget> {
                         child: Stack(
                           children: [
                             Align(
-                              alignment: AlignmentDirectional(-0.8, -0.39),
+                              alignment: AlignmentDirectional(-0.04, -0.36),
                               child: Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     8.0, 0.0, 8.0, 0.0),
@@ -487,7 +487,7 @@ class _EditRoutineWidgetState extends State<EditRoutineWidget> {
                               ),
                             ),
                             Align(
-                              alignment: AlignmentDirectional(-0.8, -0.63),
+                              alignment: AlignmentDirectional(-0.03, -0.63),
                               child: Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     8.0, 0.0, 8.0, 0.0),

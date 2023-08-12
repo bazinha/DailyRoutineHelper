@@ -83,7 +83,7 @@ class _EditRegistryWidgetState extends State<EditRegistryWidget> {
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
                       'assets/images/Background.png',
-                      width: 406.0,
+                      width: 1648.0,
                       height: 866.0,
                       fit: BoxFit.cover,
                     ),
@@ -91,7 +91,7 @@ class _EditRegistryWidgetState extends State<EditRegistryWidget> {
                   Align(
                     alignment: AlignmentDirectional(-0.12, -1.01),
                     child: Container(
-                      width: 455.0,
+                      width: 1286.0,
                       height: 82.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -189,7 +189,7 @@ class _EditRegistryWidgetState extends State<EditRegistryWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.87, -0.99),
+                    alignment: AlignmentDirectional(-0.95, -0.99),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(250.0),
                       child: Image.asset(
@@ -204,7 +204,7 @@ class _EditRegistryWidgetState extends State<EditRegistryWidget> {
                     child: Stack(
                       children: [
                         Align(
-                          alignment: AlignmentDirectional(-0.21, -0.32),
+                          alignment: AlignmentDirectional(-0.14, -0.34),
                           child: FFButtonWidget(
                             onPressed: () async {
                               if (_model.formKey.currentState == null ||
@@ -243,7 +243,7 @@ class _EditRegistryWidgetState extends State<EditRegistryWidget> {
                             },
                             text: 'Confirmar',
                             options: FFButtonOptions(
-                              width: 271.0,
+                              width: 367.0,
                               height: 40.0,
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   24.0, 0.0, 24.0, 0.0),
@@ -274,7 +274,7 @@ class _EditRegistryWidgetState extends State<EditRegistryWidget> {
                           child: Stack(
                             children: [
                               Align(
-                                alignment: AlignmentDirectional(-0.3, -0.51),
+                                alignment: AlignmentDirectional(-0.16, -0.51),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8.0, 0.0, 8.0, 0.0),
@@ -365,7 +365,7 @@ class _EditRegistryWidgetState extends State<EditRegistryWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: AlignmentDirectional(-0.36, -0.68),
+                                alignment: AlignmentDirectional(-0.04, -0.7),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       8.0, 0.0, 8.0, 0.0),

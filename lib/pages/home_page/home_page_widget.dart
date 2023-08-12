@@ -82,47 +82,54 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
                       'assets/images/Background.png',
-                      width: 406.0,
+                      width: 1394.0,
                       height: 866.0,
                       fit: BoxFit.cover,
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.75, -0.73),
+                    alignment: AlignmentDirectional(-0.75, -0.76),
                     child: Container(
-                      width: 182.0,
-                      height: 100.0,
+                      width: 436.0,
+                      height: 109.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                         borderRadius: BorderRadius.circular(8.0),
                         shape: BoxShape.rectangle,
                       ),
-                      child: Stack(
-                        children: [
-                          Align(
-                            alignment: AlignmentDirectional(0.0, -0.6),
-                            child: Text(
-                              'Hoje e:',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    fontFamily: 'Plus Jakarta Sans',
-                                    color: Colors.black,
-                                  ),
-                            ),
+                      child: Align(
+                        alignment: AlignmentDirectional(-1.0, 0.0),
+                        child: Container(
+                          width: double.infinity,
+                          child: Stack(
+                            children: [
+                              Align(
+                                alignment: AlignmentDirectional(0.0, -0.6),
+                                child: Text(
+                                  'Hoje e:',
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyMedium
+                                      .override(
+                                        fontFamily: 'Plus Jakarta Sans',
+                                        color: Colors.black,
+                                      ),
+                                ),
+                              ),
+                              Align(
+                                alignment: AlignmentDirectional(-0.08, 0.11),
+                                child: Text(
+                                  dateTimeFormat(
+                                      'MMMMEEEEd', getCurrentTimestamp),
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyMedium
+                                      .override(
+                                        fontFamily: 'Plus Jakarta Sans',
+                                      ),
+                                ),
+                              ),
+                            ],
                           ),
-                          Align(
-                            alignment: AlignmentDirectional(-0.08, 0.11),
-                            child: Text(
-                              dateTimeFormat('MMMMEEEEd', getCurrentTimestamp),
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    fontFamily: 'Plus Jakarta Sans',
-                                  ),
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
                     ),
                   ),
@@ -149,10 +156,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.93, 0.07),
+                    alignment: AlignmentDirectional(0.7, -0.05),
                     child: Container(
-                      width: 175.0,
-                      height: 622.0,
+                      width: 624.0,
+                      height: 638.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                         borderRadius: BorderRadius.circular(8.0),
@@ -335,7 +342,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   Align(
                     alignment: AlignmentDirectional(-0.75, -0.3),
                     child: Container(
-                      width: 181.0,
+                      width: 435.0,
                       height: 222.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
@@ -570,8 +577,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   Align(
                     alignment: AlignmentDirectional(-0.17, 1.0),
                     child: Container(
-                      width: 411.0,
-                      height: 73.0,
+                      width: 1319.0,
+                      height: 75.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
                       ),
@@ -733,7 +740,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   Align(
                     alignment: AlignmentDirectional(-0.12, -1.01),
                     child: Container(
-                      width: 455.0,
+                      width: 1332.0,
                       height: 82.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).info,
@@ -831,7 +838,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.87, -0.99),
+                    alignment: AlignmentDirectional(-0.97, -0.99),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(250.0),
                       child: Image.asset(
@@ -842,9 +849,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.73, 0.75),
+                    alignment: AlignmentDirectional(-0.75, 0.75),
                     child: Container(
-                      width: 178.0,
+                      width: 435.0,
                       height: 136.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
@@ -948,9 +955,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-0.73, 0.31),
+                    alignment: AlignmentDirectional(-0.75, 0.31),
                     child: Container(
-                      width: 178.0,
+                      width: 435.0,
                       height: 137.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondaryBackground,

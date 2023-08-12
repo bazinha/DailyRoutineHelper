@@ -91,7 +91,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                         child: Image.asset(
                           'assets/images/Design_sem_nome.png',
-                          width: 406.0,
+                          width: 1377.0,
                           height: 866.0,
                           fit: BoxFit.cover,
                         ),
@@ -99,7 +99,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.01, -1.02),
                         child: Container(
-                          width: 450.0,
+                          width: 1309.0,
                           height: 100.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context).info,
@@ -144,7 +144,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.74, -0.31),
+                        alignment: AlignmentDirectional(-0.08, -0.3),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),
@@ -225,7 +225,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.82, -0.67),
+                        alignment: AlignmentDirectional(-0.2, -0.67),
                         child: Text(
                           'Qual sua meta?',
                           style: FlutterFlowTheme.of(context)
@@ -239,7 +239,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.36, 0.24),
+                        alignment: AlignmentDirectional(-0.07, 0.24),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),
@@ -317,7 +317,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(0.49, -0.31),
+                        alignment: AlignmentDirectional(0.1, -0.3),
                         child: FlutterFlowIconButton(
                           borderRadius: 20.0,
                           borderWidth: 1.0,
@@ -348,7 +348,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.83, -0.41),
+                        alignment: AlignmentDirectional(-0.19, -0.41),
                         child: Text(
                           'Qual o prazo final?',
                           style: FlutterFlowTheme.of(context)
@@ -547,7 +547,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                       Align(
                         alignment: AlignmentDirectional(-0.75, 0.56),
                         child: Container(
-                          width: 197.0,
+                          width: 213.0,
                           height: 30.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context)
@@ -557,7 +557,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.87, 0.56),
+                        alignment: AlignmentDirectional(-0.79, 0.56),
                         child: Theme(
                           data: ThemeData(
                             checkboxTheme: CheckboxThemeData(
@@ -592,7 +592,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.75, -0.16),
+                        alignment: AlignmentDirectional(-0.15, -0.16),
                         child: Text(
                           'Conte mais sobre a sua meta',
                           style: FlutterFlowTheme.of(context)
@@ -606,7 +606,7 @@ class _AddGoalWidgetState extends State<AddGoalWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-0.54, 0.55),
+                        alignment: AlignmentDirectional(-0.7, 0.55),
                         child: Text(
                           'Mostrar na pagina inicial?',
                           style:
