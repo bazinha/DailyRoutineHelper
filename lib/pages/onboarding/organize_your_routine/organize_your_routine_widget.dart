@@ -44,7 +44,7 @@ class _OrganizeYourRoutineWidgetState extends State<OrganizeYourRoutineWidget> {
       onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Colors.white,
+        backgroundColor: FlutterFlowTheme.of(context).info,
         body: SafeArea(
           top: true,
           child: Stack(
@@ -56,7 +56,7 @@ class _OrganizeYourRoutineWidgetState extends State<OrganizeYourRoutineWidget> {
                   child: Image.asset(
                     'assets/images/Design_sem_nome.png',
                     width: 1414.0,
-                    height: 866.0,
+                    height: 1130.6,
                     fit: BoxFit.cover,
                   ),
                 ),

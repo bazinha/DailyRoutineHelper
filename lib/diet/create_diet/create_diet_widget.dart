@@ -221,6 +221,7 @@ class _CreateDietWidgetState extends State<CreateDietWidget> {
                           'horario_refeicao': _model.dataController.text,
                           'codigo_dieta': widget.codigoDieta,
                           'descricao_refeicao': _model.nameController2.text,
+                          'codigo_ativo': true,
                         });
 
                         context.goNamed(

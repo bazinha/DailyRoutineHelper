@@ -56,7 +56,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                   child: Image.asset(
                     'assets/images/Design_sem_nome.png',
                     width: 1527.0,
-                    height: 866.0,
+                    height: 1081.0,
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -74,7 +74,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(0.0, 1.12),
+                alignment: AlignmentDirectional(0.02, 1.38),
                 child: Container(
                   width: 451.0,
                   height: 381.0,

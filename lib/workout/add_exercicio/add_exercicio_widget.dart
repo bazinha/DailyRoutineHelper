@@ -1,11 +1,13 @@
 import '/auth/supabase_auth/auth_util.dart';
 import '/backend/supabase/supabase.dart';
+import '/flutter_flow/flutter_flow_expanded_image_view.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
 import 'add_exercicio_model.dart';
 export 'add_exercicio_model.dart';
@@ -119,13 +121,43 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                       : null;
                   return Stack(
                     children: [
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(8.0),
-                        child: Image.asset(
-                          'assets/images/Design_sem_nome.png',
-                          width: 1450.0,
-                          height: 866.0,
-                          fit: BoxFit.cover,
+                      Align(
+                        alignment: AlignmentDirectional(1.0, 0.0),
+                        child: InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              PageTransition(
+                                type: PageTransitionType.fade,
+                                child: FlutterFlowExpandedImageView(
+                                  image: Image.asset(
+                                    'assets/images/Design_sem_nome.png',
+                                    fit: BoxFit.contain,
+                                  ),
+                                  allowRotation: false,
+                                  tag: 'imageTag',
+                                  useHeroAnimation: true,
+                                ),
+                              ),
+                            );
+                          },
+                          child: Hero(
+                            tag: 'imageTag',
+                            transitionOnUserGestures: true,
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(8.0),
+                              child: Image.asset(
+                                'assets/images/Design_sem_nome.png',
+                                width: 1519.0,
+                                height: 866.0,
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
                       Align(
@@ -263,6 +295,7 @@ class _AddExercicioWidgetState extends State<AddExercicioWidget> {
                                   int.tryParse(_model.dataController1.text),
                               'numero_repeticao':
                                   int.tryParse(_model.dataController2.text),
+                              'codigo_ativo': true,
                             });
 
                             context.pushNamed(

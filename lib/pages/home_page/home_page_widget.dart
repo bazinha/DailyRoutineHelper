@@ -185,6 +185,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                   getCurrentTimestamp
                                                       .secondsSinceEpoch)),
                                         )
+                                        .eq(
+                                          'codigo_ativo',
+                                          true,
+                                        )
                                         .order('codigo_rotina',
                                             ascending: true),
                                   ),
@@ -644,7 +648,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.86, -4.11),
+                            alignment: AlignmentDirectional(0.81, -3.39),
                             child: FlutterFlowIconButton(
                               borderRadius: 20.0,
                               borderWidth: 1.0,
@@ -680,7 +684,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(-0.36, -0.97),
+                            alignment: AlignmentDirectional(-0.41, -1.41),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
@@ -716,7 +720,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.22, -1.89),
+                            alignment: AlignmentDirectional(0.17, -2.5),
                             child: FlutterFlowIconButton(
                               borderColor: Colors.transparent,
                               borderRadius: 20.0,
